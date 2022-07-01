@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #eee;
+}
+
+canvas {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.controller {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: grid;
+  grid-template-columns: 1.25fr 1.25fr 0.75fr 0.5fr;
+  background: white;
+  width: 75%;
+  padding: 11px;
+}
+
+.parts {
+  width: 75%;
+  background: white;
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.part {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.input-wrapper {
+  /* text-align: center; */
+  margin: auto auto;
+  padding: 5px 10px;
+  display: inline-block;
+  /* border: 1px solid; */
+}
+
+button {
+  padding: 10px 20px;
+  background: rgb(24, 24, 131);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}

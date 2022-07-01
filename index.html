@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configure 3D</title>
+  </head>
+  <body>
+    <div class="controller">
+      <div class="input-wrapper">
+        <label for="model"> Model</label>
+        <input type="file" id="model" name="model" />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="material"> Texture</label>
+        <input type="file" id="material" name="material" />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="color"> Color</label>
+        <input type="color" id="color" name="color" value="#e66465" />
+      </div>
+      <button class="apply-btn">Apply</button>
+    </div>
+
+    <div class="parts"></div>
+    <canvas id="bg"></canvas>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
