@@ -7,8 +7,8 @@ Which's very usefull in imagination process of the final output.
 
 |      Material     |       Result       |
 |-------------------|--------------------|
-| ![](./Wood.jpg)   | ![](./wooden.png)  |
-| ![](./metal.jpeg) | ![](./metalic.png) |
+| ![](./img/Wood.jpg)   | ![](./img/wooden.png)  |
+| ![](./img/metal.jpeg) | ![](./img/metalic.png) |
 
 
 ----------------
@@ -18,4 +18,4 @@ Or we can creat different combinations as we can select one or more parts to be 
 
 | Green Color & Wood Material | Red Support & Metalic Legs |
 |-----------------------------|----------------------------|
-|     ![](./green-wood.png)   |   ![](./red-support.png)   |
+|     ![](./img/green-wood.png)   |   ![](./img/red-support.png)   |
